@@ -3,10 +3,12 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Etapa2Dimension3Component } from './etapa2-dimension3/etapa2-dimension3.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Etapa2Dimension3Component
   ],
   imports: [
     BrowserModule,

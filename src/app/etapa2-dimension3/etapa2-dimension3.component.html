@@ -1,0 +1,17 @@
+<body>
+    <main class="principal">
+        <h1 class="titulo">Lenguajes de Programacion Épicos</h1>
+        <p>Gael Sebastián García Azpeytia</p>
+        <div class="tarjetas">
+            <div class="tarjeta" *ngFor="let lenguaje of ListaLenguajes; index as i">
+                <img class="logo" src="{{lenguaje.logo}}">
+                <div class="informacion">
+                    <p><strong>Nombre:</strong> {{lenguaje.nombre}}</p>
+                    <p><strong>Creador:</strong> {{lenguaje.creador}}</p>
+                    <p><strong>Fecha de Creación:</strong> {{lenguaje.fecha_creacion}}</p>
+                </div>
+                <a class="doc-boton" href="{{lenguaje.documentacion}}" target="_blank">Documentación</a>
+            </div>
+        </div>
+    </main>
+</body>
