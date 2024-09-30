@@ -1,0 +1,60 @@
+
+:root {
+    --oscuro: #b57c00;
+    --oscuro-claro: #d09306;
+    --intermedio: #ecab0f;
+    --claro-oscuro: #f7d547;
+    --claro: #ffff72;
+
+}
+
+.catalogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #b57c00;
+    border-radius: 10px;
+    width: 1200px;
+    height: 324px;
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7d547;
+    width: 225px;
+    height: 248px;
+    border-radius: 5px;
+}
+.tarjeta p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito';
+    font-size: 20px;
+    width: 100%;
+    height: 86px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    color: #B57C00;
+    text-shadow: 0 1px 1px#00000077;
+    background-color: #ECAB0F;
+    border-radius: 0 0 5px 5px;
+}
+.fondo-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 188px;
+    height: 145px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.imagen-tarjeta {
+    width: 173px;
+    height: 130px;
+    border-radius: 5px;
+}

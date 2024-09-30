@@ -1,0 +1,8 @@
+<article class="catalogo">
+        <div class="tarjeta" *ngFor="let info of catalogo; index as i">
+            <div class="fondo-imagen">
+                <img class="imagen-tarjeta" src="{{info.imagen}}">
+            </div>
+            <p>{{info.titular}}</p>
+        </div>
+</article>

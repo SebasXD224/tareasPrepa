@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+}
+.cuerpo {
+    background-color: #FFFF72;
+    overflow-x:hidden;
+}
+
+/* PORTADA */
+header {
+    position: relative;
+}
+.titulo {
+    position: absolute;
+    top: 40%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    color: #FFFF72;
+    width: 474px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+nav {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav .logo {
+    width: 56px;
+    height: 56px;
+    margin: 14px;
+}
+nav .botones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 14px;
+    color: #fff;
+    width: 235px;
+    height: 76px;
+    background-color: #B57C00;
+    border-radius: 10px;
+}
+nav .botones i{
+    font-size: 30px;
+}
+
+/* INFORMACION */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 38px;
+}
+.info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 482px;
+    height: 350px;
+    background-color: #B57C00;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    border-radius: 8px;
+}
+.info div p{
+    text-align: center;
+    width: 377px;
+}   
+.info div i {
+    margin-top: 20px;
+    color:#FFFF72;
+    font-size: 48px;
+}
+.info img {
+    display: none;
+}
+
+/* CATALOGO */
+.catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.catalogo .separador-catalogo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}   
